@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/HW02.dir/main.cpp.o CMakeFiles/HW02.dir/Card/Card.cpp.o CMakeFiles/HW02.dir/Deck/Deck.cpp.o -o HW02 

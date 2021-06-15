@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raf/Desktop/CS1C/HW02/Card/Card.h
+
+/home/raf/Desktop/CS1C/HW02/Deck/Deck.h
+vector
+-
+../Card/Card.h
+/home/raf/Desktop/CS1C/HW02/Card/Card.h
+
+/home/raf/Desktop/CS1C/HW02/main.cpp
+iostream
+-
+Deck/Deck.h
+/home/raf/Desktop/CS1C/HW02/Deck/Deck.h
+

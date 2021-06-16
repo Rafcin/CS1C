@@ -3,21 +3,27 @@
 clear 
 
 echo -e "
-+--------------------+
-|      Packages      |
-+--------------------+
-| Visual Studio Code |
-| Discord            |
-| Git Kraken         |
-| Vim                |
-| -                  |
-| Virtualbox Guest   |
-| Build Essential    |
-| Manpages Dev       |
-| CCMake             |
-| CMake              |
-| G++                |
-+--------------------+
++---------------------------+
+|         Packages          |
++---------------------------+
+| Visual Studio Code        |
+| Discord                   |
+| Git Kraken (Git UI)       |
+| Vim (Editor)              |
+| Guake (Fast Terminal F12) |
+| -                         |
+| Virtualbox Guest          |
+| Build Essential           |
+| Manpages Dev              |
+| CCMake                    |
+| CMake                     |
+| G++                       |
+| -                         |
+| Git Lens                  |
+| MS C++                    |
+| Prettier                  |
+| Cmake Tools               |
++---------------------------+
 "
 
 PS3='Installer Options: '
@@ -61,7 +67,7 @@ do
             ;;
         "Visual Studio Code Extensions")
             #vscode extensions
-            sudo code --install-extensions ms-vscode.cpptools formulahendry.code-runner esbenp.prettier-vscode donjayamanne.git-extension-pack
+            sudo code --install-extensions ms-vscode.cpptools formulahendry.code-runner esbenp.prettier-vscode donjayamanne.git-extension-pack ms-vscode.cmake-tools
             break
             ;;
         "Exit")

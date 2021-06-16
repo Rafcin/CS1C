@@ -6,23 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/raf/Desktop/CS1C/HW01/Random.cpp
-Random.h
 /home/raf/Desktop/CS1C/HW01/Random.h
-cstdlib
--
 vector
--
-cmath
--
-iostream
--
-fstream
--
-iterator
 -
 
-/home/raf/Desktop/CS1C/HW01/Random.h
-vector
+/home/raf/Desktop/CS1C/HW01/main.cpp
+iostream
 -
+Random.h
+/home/raf/Desktop/CS1C/HW01/Random.h
 

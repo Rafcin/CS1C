@@ -1,0 +1,44 @@
+Script started on 2021-06-15 14:26:34-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="282" LINES="36"]
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW01[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW01[00m$ date
+Tue 15 Jun 2021 02:26:37 PM PDT
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW01[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW01[00m$ las[K[Ks -l
+total 16
+-rw-rw-r-- 1 raf raf    0 Jun 15 14:26 hw01.scr
+-rw-rw-r-- 1 raf raf  528 Jun 15 14:22 main.cpp
+-rw-rw-r-- 1 raf raf  443 Jun 15 14:24 makefile
+-rw-rw-r-- 1 raf raf 2005 Jun 15 14:25 Random.cpp
+-rw-rw-r-- 1 raf raf  461 Jun 15 14:18 Random.h
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW01[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW01[00m$ make all
+g++ -Wall -g -c Random.cpp
+[01m[KRandom.cpp:[m[K In member function ‘[01m[Kint Random::trip()[m[K’:
+[01m[KRandom.cpp:47:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   47 |     for (int i = 0; [01;35m[Ki < t.size()[m[K; i++){
+      |                     [01;35m[K~~^~~~~~~~~~[m[K
+g++ -Wall -g -c main.cpp
+g++ -o test Random.o main.o
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW01[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW01[00m$ ./test 
+Random Number: 886
+Sum: 22
+Reverse: 688
+Triple: 2658
+Sort: 688
+Random Number Array
+8
+8
+6
+From File: 886
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW01[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW01[00m$ ls -l
+total 552
+-rw-rw-r-- 1 raf raf      0 Jun 15 14:26 hw01.scr
+-rw-rw-r-- 1 raf raf    528 Jun 15 14:22 main.cpp
+-rw-rw-r-- 1 raf raf  44136 Jun 15 14:26 main.o
+-rw-rw-r-- 1 raf raf    443 Jun 15 14:24 makefile
+-rw-rw-r-- 1 raf raf      6 Jun 15 14:26 output.txt
+-rw-rw-r-- 1 raf raf   2005 Jun 15 14:25 Random.cpp
+-rw-rw-r-- 1 raf raf    461 Jun 15 14:18 Random.h
+-rw-rw-r-- 1 raf raf 303016 Jun 15 14:26 Random.o
+-rwxrwxr-x 1 raf raf 195720 Jun 15 14:26 [0m[01;32mtest[0m
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW01[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW01[00m$ ie[K[Kexit
+exit
+
+Script done on 2021-06-15 14:27:11-07:00 [COMMAND_EXIT_CODE="0"]

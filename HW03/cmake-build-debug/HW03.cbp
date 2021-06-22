@@ -82,6 +82,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/Date.cpp">
+			<Option target="HW03"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/Date.h">
+			<Option target="HW03"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/Employee.cpp">
+			<Option target="HW03"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/Employee.h">
+			<Option target="HW03"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/Header.cpp">
+			<Option target="HW03"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/Header.h">
+			<Option target="HW03"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/Programmer.cpp">
+			<Option target="HW03"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/Programmer.h">
+			<Option target="HW03"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/SoftwareArchitect.cpp">
+			<Option target="HW03"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/HW03/SoftwareArchitect.h">
+			<Option target="HW03"/>
+		</Unit>
 		<Unit filename="/home/raf/Desktop/CS1C/HW03/main.cpp">
 			<Option target="HW03"/>
 		</Unit>

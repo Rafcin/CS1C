@@ -58,10 +58,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/211.7442.42/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/211.7442.42/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = /home/raf/Desktop/CS1C/HW03/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/211.7442.42/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -89,7 +89,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/211.7442.42/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -142,6 +142,141 @@ HW03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/build
 .PHONY : HW03/fast
 
+Date.o: Date.cpp.o
+
+.PHONY : Date.o
+
+# target to build an object file
+Date.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Date.cpp.o
+.PHONY : Date.cpp.o
+
+Date.i: Date.cpp.i
+
+.PHONY : Date.i
+
+# target to preprocess a source file
+Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Date.cpp.i
+.PHONY : Date.cpp.i
+
+Date.s: Date.cpp.s
+
+.PHONY : Date.s
+
+# target to generate assembly for a file
+Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Date.cpp.s
+.PHONY : Date.cpp.s
+
+Employee.o: Employee.cpp.o
+
+.PHONY : Employee.o
+
+# target to build an object file
+Employee.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Employee.cpp.o
+.PHONY : Employee.cpp.o
+
+Employee.i: Employee.cpp.i
+
+.PHONY : Employee.i
+
+# target to preprocess a source file
+Employee.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Employee.cpp.i
+.PHONY : Employee.cpp.i
+
+Employee.s: Employee.cpp.s
+
+.PHONY : Employee.s
+
+# target to generate assembly for a file
+Employee.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Employee.cpp.s
+.PHONY : Employee.cpp.s
+
+Header.o: Header.cpp.o
+
+.PHONY : Header.o
+
+# target to build an object file
+Header.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Header.cpp.o
+.PHONY : Header.cpp.o
+
+Header.i: Header.cpp.i
+
+.PHONY : Header.i
+
+# target to preprocess a source file
+Header.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Header.cpp.i
+.PHONY : Header.cpp.i
+
+Header.s: Header.cpp.s
+
+.PHONY : Header.s
+
+# target to generate assembly for a file
+Header.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Header.cpp.s
+.PHONY : Header.cpp.s
+
+Programmer.o: Programmer.cpp.o
+
+.PHONY : Programmer.o
+
+# target to build an object file
+Programmer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Programmer.cpp.o
+.PHONY : Programmer.cpp.o
+
+Programmer.i: Programmer.cpp.i
+
+.PHONY : Programmer.i
+
+# target to preprocess a source file
+Programmer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Programmer.cpp.i
+.PHONY : Programmer.cpp.i
+
+Programmer.s: Programmer.cpp.s
+
+.PHONY : Programmer.s
+
+# target to generate assembly for a file
+Programmer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/Programmer.cpp.s
+.PHONY : Programmer.cpp.s
+
+SoftwareArchitect.o: SoftwareArchitect.cpp.o
+
+.PHONY : SoftwareArchitect.o
+
+# target to build an object file
+SoftwareArchitect.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/SoftwareArchitect.cpp.o
+.PHONY : SoftwareArchitect.cpp.o
+
+SoftwareArchitect.i: SoftwareArchitect.cpp.i
+
+.PHONY : SoftwareArchitect.i
+
+# target to preprocess a source file
+SoftwareArchitect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/SoftwareArchitect.cpp.i
+.PHONY : SoftwareArchitect.cpp.i
+
+SoftwareArchitect.s: SoftwareArchitect.cpp.s
+
+.PHONY : SoftwareArchitect.s
+
+# target to generate assembly for a file
+SoftwareArchitect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW03.dir/build.make CMakeFiles/HW03.dir/SoftwareArchitect.cpp.s
+.PHONY : SoftwareArchitect.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +313,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... HW03"
+	@echo "... Date.o"
+	@echo "... Date.i"
+	@echo "... Date.s"
+	@echo "... Employee.o"
+	@echo "... Employee.i"
+	@echo "... Employee.s"
+	@echo "... Header.o"
+	@echo "... Header.i"
+	@echo "... Header.s"
+	@echo "... Programmer.o"
+	@echo "... Programmer.i"
+	@echo "... Programmer.s"
+	@echo "... SoftwareArchitect.o"
+	@echo "... SoftwareArchitect.i"
+	@echo "... SoftwareArchitect.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

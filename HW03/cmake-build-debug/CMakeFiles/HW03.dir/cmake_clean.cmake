@@ -1,4 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/HW03.dir/Date.cpp.o"
+  "CMakeFiles/HW03.dir/Employee.cpp.o"
+  "CMakeFiles/HW03.dir/Header.cpp.o"
+  "CMakeFiles/HW03.dir/Programmer.cpp.o"
+  "CMakeFiles/HW03.dir/SoftwareArchitect.cpp.o"
   "CMakeFiles/HW03.dir/main.cpp.o"
   "HW03"
   "HW03.pdb"

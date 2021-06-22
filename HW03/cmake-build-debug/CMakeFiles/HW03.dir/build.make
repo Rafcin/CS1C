@@ -53,10 +53,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/211.7442.42/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/211.7442.42/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -89,17 +89,92 @@ CMakeFiles/HW03.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW03.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1C/HW03/main.cpp -o CMakeFiles/HW03.dir/main.cpp.s
 
+CMakeFiles/HW03.dir/Date.cpp.o: CMakeFiles/HW03.dir/flags.make
+CMakeFiles/HW03.dir/Date.cpp.o: ../Date.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1C/HW03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HW03.dir/Date.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW03.dir/Date.cpp.o -c /home/raf/Desktop/CS1C/HW03/Date.cpp
+
+CMakeFiles/HW03.dir/Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW03.dir/Date.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1C/HW03/Date.cpp > CMakeFiles/HW03.dir/Date.cpp.i
+
+CMakeFiles/HW03.dir/Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW03.dir/Date.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1C/HW03/Date.cpp -o CMakeFiles/HW03.dir/Date.cpp.s
+
+CMakeFiles/HW03.dir/Employee.cpp.o: CMakeFiles/HW03.dir/flags.make
+CMakeFiles/HW03.dir/Employee.cpp.o: ../Employee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1C/HW03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HW03.dir/Employee.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW03.dir/Employee.cpp.o -c /home/raf/Desktop/CS1C/HW03/Employee.cpp
+
+CMakeFiles/HW03.dir/Employee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW03.dir/Employee.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1C/HW03/Employee.cpp > CMakeFiles/HW03.dir/Employee.cpp.i
+
+CMakeFiles/HW03.dir/Employee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW03.dir/Employee.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1C/HW03/Employee.cpp -o CMakeFiles/HW03.dir/Employee.cpp.s
+
+CMakeFiles/HW03.dir/Programmer.cpp.o: CMakeFiles/HW03.dir/flags.make
+CMakeFiles/HW03.dir/Programmer.cpp.o: ../Programmer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1C/HW03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HW03.dir/Programmer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW03.dir/Programmer.cpp.o -c /home/raf/Desktop/CS1C/HW03/Programmer.cpp
+
+CMakeFiles/HW03.dir/Programmer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW03.dir/Programmer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1C/HW03/Programmer.cpp > CMakeFiles/HW03.dir/Programmer.cpp.i
+
+CMakeFiles/HW03.dir/Programmer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW03.dir/Programmer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1C/HW03/Programmer.cpp -o CMakeFiles/HW03.dir/Programmer.cpp.s
+
+CMakeFiles/HW03.dir/SoftwareArchitect.cpp.o: CMakeFiles/HW03.dir/flags.make
+CMakeFiles/HW03.dir/SoftwareArchitect.cpp.o: ../SoftwareArchitect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1C/HW03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/HW03.dir/SoftwareArchitect.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW03.dir/SoftwareArchitect.cpp.o -c /home/raf/Desktop/CS1C/HW03/SoftwareArchitect.cpp
+
+CMakeFiles/HW03.dir/SoftwareArchitect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW03.dir/SoftwareArchitect.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1C/HW03/SoftwareArchitect.cpp > CMakeFiles/HW03.dir/SoftwareArchitect.cpp.i
+
+CMakeFiles/HW03.dir/SoftwareArchitect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW03.dir/SoftwareArchitect.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1C/HW03/SoftwareArchitect.cpp -o CMakeFiles/HW03.dir/SoftwareArchitect.cpp.s
+
+CMakeFiles/HW03.dir/Header.cpp.o: CMakeFiles/HW03.dir/flags.make
+CMakeFiles/HW03.dir/Header.cpp.o: ../Header.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1C/HW03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/HW03.dir/Header.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HW03.dir/Header.cpp.o -c /home/raf/Desktop/CS1C/HW03/Header.cpp
+
+CMakeFiles/HW03.dir/Header.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HW03.dir/Header.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1C/HW03/Header.cpp > CMakeFiles/HW03.dir/Header.cpp.i
+
+CMakeFiles/HW03.dir/Header.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HW03.dir/Header.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1C/HW03/Header.cpp -o CMakeFiles/HW03.dir/Header.cpp.s
+
 # Object files for target HW03
 HW03_OBJECTS = \
-"CMakeFiles/HW03.dir/main.cpp.o"
+"CMakeFiles/HW03.dir/main.cpp.o" \
+"CMakeFiles/HW03.dir/Date.cpp.o" \
+"CMakeFiles/HW03.dir/Employee.cpp.o" \
+"CMakeFiles/HW03.dir/Programmer.cpp.o" \
+"CMakeFiles/HW03.dir/SoftwareArchitect.cpp.o" \
+"CMakeFiles/HW03.dir/Header.cpp.o"
 
 # External object files for target HW03
 HW03_EXTERNAL_OBJECTS =
 
 HW03: CMakeFiles/HW03.dir/main.cpp.o
+HW03: CMakeFiles/HW03.dir/Date.cpp.o
+HW03: CMakeFiles/HW03.dir/Employee.cpp.o
+HW03: CMakeFiles/HW03.dir/Programmer.cpp.o
+HW03: CMakeFiles/HW03.dir/SoftwareArchitect.cpp.o
+HW03: CMakeFiles/HW03.dir/Header.cpp.o
 HW03: CMakeFiles/HW03.dir/build.make
 HW03: CMakeFiles/HW03.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raf/Desktop/CS1C/HW03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HW03"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raf/Desktop/CS1C/HW03/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable HW03"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HW03.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

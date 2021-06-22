@@ -13,6 +13,7 @@ private:
     //STANDARD DECK SIZE IS 52 13 Ranks, 4 Suits
     int numberOfRanks = 13;
     int numberOfSuits = 4;
+    const int deckSize = 52;
 public:
     Deck();
     ~Deck();

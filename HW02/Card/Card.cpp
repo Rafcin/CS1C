@@ -3,6 +3,7 @@
 //
 
 #include "Card.h"
+//Initialize our card with the rank and suit. Should I ever reuse this lets make sure this
 Card::Card(Rank rank, Suit suit) {
     m_rank = rank;
     m_suit = suit;

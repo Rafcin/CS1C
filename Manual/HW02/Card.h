@@ -5,8 +5,17 @@
 #ifndef HW02_CARD_H
 #define HW02_CARD_H
 
-enum class Rank { ACE = 1, TWO=2, THREE=3, FOUR=4, FIVE=5, SIX=6, SEVEN=7, EIGHT=8, NINE=9, TEN=10, JACK=11, QUEEN=12, KING=13 };
-enum class Suit { CLUBS=1, DIAMONDS=2, HEARTS=3, SPADES=4 };
+/**
+ * @name Card
+ * @brief Card class for basic playing cards. This class contains no adjustments for different card games and
+ * simply contains the basic ranks for a deck.
+ *
+ * @public Card, getRank, getSuit, getSuitSymbol, getRankSymbol
+ * @private suit, rank
+ *
+ */
+enum class Rank { ACE = 1, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING };
+enum class Suit { CLUBS, DIAMONDS, HEARTS, SPADES };
 class Card {
 private:
     Suit m_suit;

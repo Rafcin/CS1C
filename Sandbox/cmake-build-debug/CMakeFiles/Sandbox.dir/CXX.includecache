@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raf/Desktop/CS1C/Sandbox/main.cpp
+stdint.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+

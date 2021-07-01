@@ -1,0 +1,48 @@
+Script started on 2021-06-29 02:28:28-07:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="282" LINES="34"]
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW05[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW05[00m$ date
+Tue 29 Jun 2021 02:28:30 AM PDT
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW05[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW05[00m$ ls -l
+total 24
+-rw-rw-r-- 1 raf raf  131 Jun 28 19:25 CMakeLists.txt
+drwxrwxr-x 3 raf raf 4096 Jun 21 19:47 [0m[01;34mexternal[0m
+-rw-rw-r-- 1 raf raf    0 Jun 29 02:28 hw05.scr
+-rw-rw-r-- 1 raf raf 3169 Jun 29 02:26 Lottery.cpp
+-rw-rw-r-- 1 raf raf  682 Jun 29 02:17 Lottery.h
+-rw-rw-r-- 1 raf raf  100 Jun 29 02:16 main.cpp
+-rw-rw-r-- 1 raf raf  443 Jun 15 14:24 makefile
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW05[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW05[00m$ make all
+g++ -Wall -g -c Lottery.cpp
+[01m[KLottery.cpp:[m[K In member function ‘[01m[Kvoid Lottery::keygen(int, int)[m[K’:
+[01m[KLottery.cpp:57:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   57 |             for(size_t i=1; [01;35m[Ki<=rsize[m[K;i++){
+      |                             [01;35m[K~^~~~~~~[m[K
+g++ -Wall -g -c main.cpp
+g++ -o test Lottery.o main.o
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW05[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW05[00m$ ls -l
+total 3864
+-rw-rw-r-- 1 raf raf     131 Jun 28 19:25 CMakeLists.txt
+drwxrwxr-x 3 raf raf    4096 Jun 21 19:47 [0m[01;34mexternal[0m
+-rw-rw-r-- 1 raf raf       0 Jun 29 02:28 hw05.scr
+-rw-rw-r-- 1 raf raf    3169 Jun 29 02:26 Lottery.cpp
+-rw-rw-r-- 1 raf raf     682 Jun 29 02:17 Lottery.h
+-rw-rw-r-- 1 raf raf 2474448 Jun 29 02:28 Lottery.o
+-rw-rw-r-- 1 raf raf     100 Jun 29 02:16 main.cpp
+-rw-rw-r-- 1 raf raf   95144 Jun 29 02:28 main.o
+-rw-rw-r-- 1 raf raf     443 Jun 15 14:24 makefile
+-rwxrwxr-x 1 raf raf 1353216 Jun 29 02:28 [01;32mtest[0m
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW05[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW05[00m$ ./test
++[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m+[00m[00m
+|[00m[32m      [32m[1m[1m[1m[1m[1m[1m[1m[1m[1m[1m[1m[1m[1mKeygen Table[00m[32m     [00m|[00m[00m
++[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m+[00m[00m
+|[00m 5, 12, 16, 25, 29, 36[00m [00m|[00m[00m
++[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m+[00m
++[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m+[00m[00m
+|[00m[33m                                            [33m[1m[1m[1m[1m[1m[1m[1m[1m[1m[1m[1m[1m[1m⚠ Debug | Notes ⚠[00m[33m                                            [00m|[00m[00m
++[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m+[00m[00m
+|[00m  If you want you can use the getters and setters to access the key value. Key can be retrieved via getKey()[00m [00m|[00m[00m
+|[00m                       And should you want to regen the key, you can always do keygen()[00m                      [00m|[00m[00m
++[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m-[00m+[00m
+]0;raf@Raf-Desktop: ~/Desktop/CS1C/Manual/HW05[01;32mraf@Raf-Desktop[00m:[01;34m~/Desktop/CS1C/Manual/HW05[00m$ exit
+exit
+
+Script done on 2021-06-29 02:28:47-07:00 [COMMAND_EXIT_CODE="0"]

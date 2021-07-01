@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/HW05.dir/main.cpp.o CMakeFiles/HW05.dir/Lottery.cpp.o -o HW05 

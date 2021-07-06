@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/raf/Desktop/CS1C/Sandbox/Widget.cpp" "/home/raf/Desktop/CS1C/Sandbox/cmake-build-debug/CMakeFiles/Sandbox.dir/Widget.cpp.o"
   "/home/raf/Desktop/CS1C/Sandbox/main.cpp" "/home/raf/Desktop/CS1C/Sandbox/cmake-build-debug/CMakeFiles/Sandbox.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

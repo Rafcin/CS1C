@@ -67,10 +67,10 @@ RM = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raf/Desktop/CS1C/Sandbox
+CMAKE_SOURCE_DIR = /home/raf/Desktop/CS1C/HW07
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raf/Desktop/CS1C/Sandbox/cmake-build-debug
+CMAKE_BINARY_DIR = /home/raf/Desktop/CS1C/HW07/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/CS1C/Sandbox/cmake-build-debug/CMakeFiles /home/raf/Desktop/CS1C/Sandbox/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/CS1C/HW07/cmake-build-debug/CMakeFiles /home/raf/Desktop/CS1C/HW07/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/CS1C/Sandbox/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/CS1C/HW07/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,44 +130,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Sandbox
+# Target rules for targets named HW07
 
 # Build rule for target.
-Sandbox: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Sandbox
-.PHONY : Sandbox
+HW07: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HW07
+.PHONY : HW07
 
 # fast build rule for target.
-Sandbox/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/build
-.PHONY : Sandbox/fast
+HW07/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/build
+.PHONY : HW07/fast
 
-Widget.o: Widget.cpp.o
+DB.o: DB.cpp.o
 
-.PHONY : Widget.o
+.PHONY : DB.o
 
 # target to build an object file
-Widget.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/Widget.cpp.o
-.PHONY : Widget.cpp.o
+DB.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/DB.cpp.o
+.PHONY : DB.cpp.o
 
-Widget.i: Widget.cpp.i
+DB.i: DB.cpp.i
 
-.PHONY : Widget.i
+.PHONY : DB.i
 
 # target to preprocess a source file
-Widget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/Widget.cpp.i
-.PHONY : Widget.cpp.i
+DB.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/DB.cpp.i
+.PHONY : DB.cpp.i
 
-Widget.s: Widget.cpp.s
+DB.s: DB.cpp.s
 
-.PHONY : Widget.s
+.PHONY : DB.s
 
 # target to generate assembly for a file
-Widget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/Widget.cpp.s
-.PHONY : Widget.cpp.s
+DB.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/DB.cpp.s
+.PHONY : DB.cpp.s
+
+History/History.o: History/History.cpp.o
+
+.PHONY : History/History.o
+
+# target to build an object file
+History/History.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/History/History.cpp.o
+.PHONY : History/History.cpp.o
+
+History/History.i: History/History.cpp.i
+
+.PHONY : History/History.i
+
+# target to preprocess a source file
+History/History.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/History/History.cpp.i
+.PHONY : History/History.cpp.i
+
+History/History.s: History/History.cpp.s
+
+.PHONY : History/History.s
+
+# target to generate assembly for a file
+History/History.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/History/History.cpp.s
+.PHONY : History/History.cpp.s
+
+Item/Item.o: Item/Item.cpp.o
+
+.PHONY : Item/Item.o
+
+# target to build an object file
+Item/Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/Item/Item.cpp.o
+.PHONY : Item/Item.cpp.o
+
+Item/Item.i: Item/Item.cpp.i
+
+.PHONY : Item/Item.i
+
+# target to preprocess a source file
+Item/Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/Item/Item.cpp.i
+.PHONY : Item/Item.cpp.i
+
+Item/Item.s: Item/Item.cpp.s
+
+.PHONY : Item/Item.s
+
+# target to generate assembly for a file
+Item/Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/Item/Item.cpp.s
+.PHONY : Item/Item.cpp.s
 
 main.o: main.cpp.o
 
@@ -175,7 +229,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -184,7 +238,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -193,7 +247,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sandbox.dir/build.make CMakeFiles/Sandbox.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW07.dir/build.make CMakeFiles/HW07.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -204,10 +258,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Sandbox"
-	@echo "... Widget.o"
-	@echo "... Widget.i"
-	@echo "... Widget.s"
+	@echo "... HW07"
+	@echo "... DB.o"
+	@echo "... DB.i"
+	@echo "... DB.s"
+	@echo "... History/History.o"
+	@echo "... History/History.i"
+	@echo "... History/History.s"
+	@echo "... Item/Item.o"
+	@echo "... Item/Item.i"
+	@echo "... Item/Item.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/raf/Desktop/CS1C/Sandbox/Widget.cpp">
+			<Option target="Sandbox"/>
+		</Unit>
+		<Unit filename="/home/raf/Desktop/CS1C/Sandbox/Widget.h">
+			<Option target="Sandbox"/>
+		</Unit>
 		<Unit filename="/home/raf/Desktop/CS1C/Sandbox/main.cpp">
 			<Option target="Sandbox"/>
 		</Unit>

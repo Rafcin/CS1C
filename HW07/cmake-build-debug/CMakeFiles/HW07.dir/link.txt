@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/HW07.dir/main.cpp.o CMakeFiles/HW07.dir/DB.cpp.o CMakeFiles/HW07.dir/Item/Item.cpp.o CMakeFiles/HW07.dir/History/History.cpp.o -o HW07 

@@ -3,4 +3,4 @@ project(Sandbox)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Sandbox main.cpp)
+add_executable(Sandbox main.cpp Widget.cpp Widget.h)

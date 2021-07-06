@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raf/Desktop/CS1C/HW07/DB.cpp
+iostream
+-
+DB.h
+/home/raf/Desktop/CS1C/HW07/DB.h
+
+/home/raf/Desktop/CS1C/HW07/DB.h
+vector
+-
+memory
+-
+Item/Item.h
+/home/raf/Desktop/CS1C/HW07/Item/Item.h
+History/History.h
+/home/raf/Desktop/CS1C/HW07/History/History.h
+
+/home/raf/Desktop/CS1C/HW07/History/History.h
+string
+-
+../Item/Item.h
+/home/raf/Desktop/CS1C/HW07/Item/Item.h
+
+/home/raf/Desktop/CS1C/HW07/Item/Item.h
+string
+-
+

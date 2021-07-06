@@ -1,0 +1,3 @@
+/home/raf/Desktop/CS1C/HW07/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/raf/Desktop/CS1C/HW07/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/raf/Desktop/CS1C/HW07/cmake-build-debug/CMakeFiles/HW07.dir

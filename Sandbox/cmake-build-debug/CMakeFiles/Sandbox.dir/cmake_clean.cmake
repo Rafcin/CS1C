@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Sandbox.dir/Widget.cpp.o"
   "CMakeFiles/Sandbox.dir/main.cpp.o"
   "Sandbox"
   "Sandbox.pdb"
